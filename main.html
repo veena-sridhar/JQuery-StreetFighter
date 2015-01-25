@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
+	<link href='http://fonts.googleapis.com/css?family=Norican' rel='stylesheet' type='text/css'>
 	<meta charset="UTF-8">
-	<title></title>
+	<title>Street Fighter with JQuery</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
@@ -14,7 +15,13 @@
 			<div class="ryu-still"></div>
 			<div class="ryu-ready"></div>
 			<div class="ryu-throwing"></div>
+			<div class="ryu-cool"></div>
 		</div>
+		<div class="how-to">
+			<p class="first">Click on Ryu to make him throw a Hadouken.</p>
+			<p class="second">Press and hold down the 'x' key to make him strike a cool pose!</p>
+		</div>
+		<audio id="hadouken-sound" src="sound/hadouken.mp3"></audio>
 		<div class="hadouken"></div>
 	</div>
 </body>
